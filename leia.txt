@@ -1,0 +1,20 @@
+Antes de tudo devemos fazer 4 coisas:
+
+1º Usei o PyQt6, se não tiver instale
+2º o meu banco de dados foi no MySQL
+3º installar o "pip install mysql-connector-python"
+4º abrir o MySQL e dar estes comandos:
+"
+create database dados;
+use dados;
+create table informacoes(
+nome varchar(50),
+agencia int,
+conta int,
+senha varchar(50)
+);
+"
+
+Pronto, preparativos feitos :)
+
+PS: Se tiver o mysql connector (sem python) desinstale pois irá ter conflito e o codigo não irá rodar, para isso "pip unistall mysql-connector".  
